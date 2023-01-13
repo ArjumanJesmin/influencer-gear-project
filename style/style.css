@@ -1,0 +1,108 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body {
+    padding: 40px 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------
+Header Area Start
+--------------- */
+.header-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-title {
+    color: #3A3A3A;
+    font-size: 24px;
+}
+
+
+.menu-items {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+
+}
+
+.menu-items li a,
+i {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+
+/* ------------------
+section-area Start 
+ ------------------ */
+.section-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section-text {
+    text-align: left;
+    font-family: 'Poppins';
+    color: #3A3A3A;
+}
+
+.section-title {
+    font-size: 52px;
+
+}
+
+.section-desc {
+    font-size: 16px;
+
+}
+.section-btn,.fa-long-arrow-right {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 25px;
+}
+.section-image{
+    width: 402px;
+    height: 374px;
+}
+
+/* -----------------
+    section-logo-Area
+ ----------------- */
+ .section-logo{
+    display: flex;
+    justify-content:center ;
+    margin-top: 150px;
+    width: 1110px;
+    height: 110px;
+   padding-top: 30px;
+   
+ }
+ .section-logo img{
+    padding-left: 30px;
+ }
+
+ /* ---------------
+ ----------------- */
+
+ .many-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+
+ }
+ .see-more {
+    padding-top: 40px;
+    color: #E02C6D;
+    background-color: white;
+    text-align: right;
+ }
+ .see-more i{
+    color: #E02C6D;
+    background-color: white;
+ }
