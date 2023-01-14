@@ -253,13 +253,15 @@ span {
         padding: 0px;
         margin: 5px;
     }
+    .section-image{
+        width: 202px;
+        height: 190px;
+        margin-bottom: 100px;
+    }
 
     .menu-items {
         display: none;
     }
-
-    /* ---------update -------*/
-
     .section-logo {
         display: flex;
         justify-content: left;
