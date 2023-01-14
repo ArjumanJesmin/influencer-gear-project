@@ -69,6 +69,7 @@ section-area Start
     background-color: #E02C6D;
     border-radius: 25px;
     padding: 5px 15px;
+    list-style: none;
 }
 
 .section-image {
@@ -96,6 +97,7 @@ section-area Start
 .many-collection {
     font-family: 'Poppins';
     font-weight: 600;
+    margin: 20px 150px;
 }
 
 .collection-title {
